@@ -1,0 +1,48 @@
+
+
+.flex{
+  display: flex;
+  width: 700px;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+.flex div{
+  border: solid 2px #f3e6e6;
+  border-radius: 30px;
+  text-align: center;
+  width: 120px;
+  background-color: #332929;
+  color: aliceblue;
+  font-size: 30px;
+  cursor: pointer;
+}
+i{
+  font-size: 40px;
+  color: yellow;
+}
+.flex div:active{
+  background-color: #fff;
+  i{
+    color: pink;
+  }
+}
+.bg{
+  background-color: #ccc !important;
+  width: 200px !important;
+  color: darkred !important;
+  border: solid 3px #000 !important;
+  font-weight: bold !important;
+}
+.bg i{
+  color: red !important;
+  font-size: 60px !important;
+}
+button{
+  background-color: #000;
+  color: aliceblue;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
